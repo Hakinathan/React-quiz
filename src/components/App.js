@@ -131,8 +131,7 @@ export default function App() {
             />
 
             <Footer>
-              <Timer dispatch={dispatch} secondsRemaining={secondsRemaining} />
-
+              {/* <Timer dispatch={dispatch} secondsRemaining={secondsRemaining} /> */}
               <NextButton
                 dispatch={dispatch}
                 answer={answer}
